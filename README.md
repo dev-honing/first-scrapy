@@ -21,8 +21,9 @@ scrap이라는 새로운 프로젝트 생성
 
 `(.venv) C:\Users\Administrator\Desktop\ho\first-scrapy\scrap>scrapy genspider ho https://velog.io/@dev-honing/%ED%85%8C%EC%8A%A4%ED%8A%B8`
 ### 4. spider 편집
-디렉토리 이동
-스파이더명.py 파일 수정
+디렉토리 전환해 스파이더명.py 찾기
+
+다음과 같이 스파이더명.py를 편집
 ```
 # scrap/scrap/spiders/ho.py
 import scrapy
